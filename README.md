@@ -298,7 +298,7 @@ export const personalData = {
   facebook: "https://www.facebook.com/yourprofile",
   linkedIn: "https://www.linkedin.com/in/yourprofile",
   twitter: "https://twitter.com/yourusername",
-  stackOverflow: "https://stackoverflow.com/users/your-id",
+
   leetcode: "https://leetcode.com/yourusername/",
   devUsername: "yourusername", // dev.to username for blog integration
   resume: "https://link-to-your-resume.pdf",

@@ -1,11 +1,12 @@
 export const contactsData = {
-    email: 'abusaid7388@gmail.com',
-    phone: '+8801608797655',
-    address: 'Middle Badda, Dhaka, Bangladesh - 1212 ',
-    github: 'https://github.com/said7388',
-    facebook: 'https://www.facebook.com/abusaid.riyaz/',
-    linkedIn: 'https://www.linkedin.com/in/abu-said-bd/',
-    twitter: 'https://twitter.com/said7388',
-    stackOverflow: 'https://stackoverflow.com/users/16840768/abu-said',
-    devUsername: "said7388"
+    email: 'aggarwalkanika676@gmail.com',
+    phone: '7895726762',
+    address: 'Chandigarh, India',
+    github: 'https://github.com/kanika311',
+    facebook: 'https://www.facebook.com/khushi.aggarwal.7731247',
+    linkedIn: 'https://www.linkedin.com/in/kanika-aggarwal-90383929b/',
+    twitter: 'https://twitter.com/kanika311',
+ 
+    leetcode: "https://leetcode.com/u/kanikaAggarwal29/",
+    devUsername: "kanika311",
 }

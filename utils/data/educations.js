@@ -1,20 +1,26 @@
 export const educations = [
   {
     id: 1,
-    title: "Bachelor Degree",
-    duration: "2020 - Present",
-    institution: "National University of Bangladesh",
+    title: "Masters Degree",
+    duration: "2025 - Present",
+    institution: "Chandigarh University",
   },
   {
     id: 2,
-    title: "Higher Secondary Certificate",
-    duration: "2018 - 2020",
-    institution: "Noakhali Islamia Kamil Madrasah",
+    title: "Bachelor Degree",
+    duration: "2022 - 2025",
+    institution: "Sri dev suman university",
   },
   {
     id: 3,
+    title: "Higher Secondary Certificate",
+    duration: "2021 - 2022",
+    institution: "CBSE Board",
+  },
+  {
+    id: 4,
     title: "Secondary School Certificate",
-    duration: "2008 - 2018",
-    institution: "Baitus Saif Islamia Madrasah",
+    duration: "2019 - 2020",
+    institution: "CBSE Board",
   }
 ]
