@@ -2,7 +2,7 @@ export const personalData = {
   name: "Kanika Aggarwal",
   profile: '/kanika.jpg',
   designation: "Frontend Developer",
-  description: "My name is Kanika Aggarwal. I am a professional and enthusiastic programmer in my daily life. I am a quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving. I love MERN stacks of web application development and love to make the web more open to the world. My core skill is based on JavaScript and I love to do most of the things using JavaScript. I am available for any kind of job opportunity that suits my skills and interests.",
+  description: "I’m Kanika Aggarwal, a passionate MERN Stack Developer who loves building modern, responsive, and user-friendly web applications. I specialize in MongoDB, Express.js, React.js, and Node.js, with a strong focus on JavaScript. I enjoy solving problems, practicing DSA daily, and continuously learning new technologies to improve my development skills.",
   email: 'aggarwalkanika676@gmail.com',
   phone: '7895726762',
   address: 'Chandigarh, India',
@@ -13,5 +13,5 @@ export const personalData = {
  
   leetcode: "https://leetcode.com/u/kanikaAggarwal29/",
   devUsername: "kanika311",
-  resume: "https://drive.google.com/file/d/17gMS9fW8Ke6vnuEJGt7o_X6RaG1lyPnH/view?usp=sharing"
+  resume: "https://drive.google.com/file/d/15Db0YVLPz9JWCMvYZ82W29_UcbrB1-FR/view?usp=sharing"
 }

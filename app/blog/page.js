@@ -1,21 +1,10 @@
 // @flow strict
 
-import { personalData } from "@/utils/data/personal-data";
+import { getAllBlogs } from "@/utils/get-blogs";
 import BlogCard from "../components/homepage/blog/blog-card";
 
-async function getBlogs() {
-  const res = await fetch(`https://dev.to/api/articles?username=${personalData.devUsername}`)
-
-  if (!res.ok) {
-    throw new Error('Failed to fetch data')
-  }
-
-  const data = await res.json();
-  return data;
-};
-
 async function page() {
-  const blogs = await getBlogs();
+  const blogs = await getAllBlogs();
 
   return (
     <div className="py-8">
@@ -33,7 +22,7 @@ async function page() {
         {
           blogs.map((blog, i) => (
             blog?.cover_image &&
-            <BlogCard blog={blog} key={i} />
+            <BlogCard blog={blog} key={blog.slug || blog.id || i} />
           ))
         }
       </div>

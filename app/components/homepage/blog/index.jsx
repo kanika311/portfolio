@@ -29,7 +29,7 @@ function Blog({ blogs }) {
         {
           blogs.slice(0, 6).map((blog, i) => (
             blog?.cover_image &&
-            <BlogCard blog={blog} key={i} />
+            <BlogCard blog={blog} key={blog.slug || blog.id || i} />
           ))
         }
       </div>
